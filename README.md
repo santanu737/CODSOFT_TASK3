@@ -32,14 +32,6 @@ Download the csv from the link above, rename it to `Churn_Modelling.csv` if need
 - `churn_prediction.py` - main script
 - `generate_sample_data.py` - makes fake data to test the code without needing the real dataset first
 - `requirements.txt`
-
-## How to run
-
-```
-pip install -r requirements.txt
-python churn_prediction.py
-```
-
 ## Results
 
 Random Forest and Gradient Boosting both did noticeably better than plain Logistic Regression on this one. Plots get saved as eda_overview.png, model_evaluation.png and feature_importance.png when you run it.
